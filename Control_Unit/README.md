@@ -3,6 +3,13 @@ The **Control Unit** is responsible for generating control signals for various c
 1. **Main Decoder**: Generates high-level control signals based on the `Opcode`.
 2. **ALU Decoder**: Determines the `ALUControl` signal using `ALUOp` and `Funct` field.
 
+
+Control Unit
+![Control Unit Diagram](control_unit.png)
+
+
+Refer to the **Control Unit Verilog file**:  
+📄 **[ControlUnit.v](./ControlUnit.v)**
 ---
 
 ## **1. Main Decoder**
@@ -48,6 +55,3 @@ Refer to the **ALU Decoder Verilog file**:
 📄 **[ALUDecoder.v](./ALUDecoder.v)**
 
 
-## **2. Control Unit Verilog Code**
-Refer to the **Control Unit Verilog file**:  
-📄 **[ControlUnit.v](./ControlUnit.v)**
