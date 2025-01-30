@@ -25,7 +25,7 @@ The **Main Decoder** takes the **Opcode** as input and generates the following c
 
 ### **Main Decoder Verilog Code**
 Refer to the **Main Decoder Verilog file**:  
-📄 **[MainDecoder.v](./MainDdecoder.v)**
+📄 **[MainDecoder.v](./MainDecoder.v)**
 
 # **ALU Decoder for MIPS Processor**
 The **ALU Decoder** determines the `ALUControl` signal based on:
